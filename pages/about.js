@@ -22,7 +22,7 @@ export default class About extends Component {
     return (
       <Layout title="About">
         <p>{user.name}</p>
-        <img src={user.avatar_url} alt="Reed" height="200px" />
+        <img src="https://placekitten.com/300/300" alt="Reed" height="200px" />
       </Layout>
     );
   }
